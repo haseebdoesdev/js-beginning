@@ -18,4 +18,4 @@ console.log(23+1+"2")
 let someIncrementalVal = 20 
 console.log(someIncrementalVal++)
 console.log(++someIncrementalVal)
-
+console.log(Number(null)) // interesting.....
