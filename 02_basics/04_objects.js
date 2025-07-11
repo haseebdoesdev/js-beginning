@@ -6,7 +6,7 @@ const ob1 = {1:'a', '2': 'b'}
 const ob2= {3:'a', '4': 'b'}
 
 console.log({ob1, ob2}) // not correct
-console.log(Object.assign({}, ob1, ob2)) // correct one, can also be written as Object.assign(ob1, ob2) but it make changes to the original object ob1 as the first element's the target
+console.log(Object.assign({}, ob1, ob2)) // correct one, can also be written as Object.assign(ob1, ob2) but it make changes to the original object ob1 as the first elements the target
 console.log({...ob1, ...ob2}) // more commonly used
 
 
